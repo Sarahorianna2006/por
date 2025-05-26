@@ -101,11 +101,15 @@ footer{
     width: 90%;
     max-width:900px ; 
     margin: 120px auto 120px;  
+    flex-wrap: wrap;
+
+
 }
 .card-text{
     display: flex;
     flex-direction: column;
     text-align: left;
+    flex: 1;
 }
 .card-title-projects{
     text-align: left;
